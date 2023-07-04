@@ -23,7 +23,7 @@ void calcularAprobado(int a) {
 calcularAprobado(1);
 calcularAprobado(5);
 calcularAprobado(9);
-*/
+
 
 //Metodos
 
@@ -67,4 +67,22 @@ class Motos {
         int nivelDeposito = 20 + litros;
         return nivelDeposito;
     }
+}*/
+
+//Recursividad
+//Factorial -> !
+
+/* 1! = 1
+ * 2! = 2 * 1 = 2
+ * 3! = 3 * 2 *1 = 3
+ * */
+
+Console.WriteLine(CalcularFactorial(5));
+
+long CalcularFactorial(int n) {
+    if (n == 1) {
+    
+        return 1;
+    }
+    return n * CalcularFactorial(n - 1);
 }
