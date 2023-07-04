@@ -1,4 +1,4 @@
-﻿
+﻿/*
 int CalcularCuadrado(int n) {
     Console.WriteLine(n * n);
     return n * n;
@@ -23,3 +23,15 @@ void calcularAprobado(int a) {
 calcularAprobado(1);
 calcularAprobado(5);
 calcularAprobado(9);
+*/
+
+//Metodos
+var moto = new Motos();
+
+moto.Arrancar();
+
+class Motos {
+    public void Arrancar() {
+        Console.WriteLine("Arranca");
+    }
+}
